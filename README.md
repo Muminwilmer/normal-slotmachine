@@ -1,6 +1,6 @@
 1. Replace the email in the create accounts to your email<br>
-2. Run it<br>
-<br>
+2. Run it <br><br>
+
 3. Go to your email and open "conversation" full of verification emails<br>
 4. Run the grab-all-emailVerification-links.js and copy the logs<br><br>
 4.5 You could also drag this thing into the bookmarks bar and press it while on the email to grab all links :P <br>
