@@ -1,10 +1,8 @@
 # Automated Account Creation and Email Verification Guide
 
-This guide walks you through the steps to create accounts, retrieve email verification links, and automatically play games to win prizes. Follow these steps carefully.
-
 ## 1. Replace the Email in the Account Creation Script
 
-First, replace the placeholder email in the account creation script with your email address. This will ensure that the verification emails are sent to you.
+First, replace the placeholder email in the create-account.js file with your email address. This is the email you want the verification codes to be sent to + your winnings later
 
 # Bookmarklet to Extract Email Verification Links
 
