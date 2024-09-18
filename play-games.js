@@ -95,14 +95,14 @@ async function playGame(id) {
 
 const ids = [
   //Put the links from the other code here
-  'https://spel.normal.se/slotmachine/Confirmation/?s=7ulTC0Gtp', 'https://spel.normal.se/slotmachine/Confirmation/?s=Nup2DRwG2', 'https://spel.normal.se/slotmachine/Confirmation/?s=jlTSWRCIN', 'https://spel.normal.se/slotmachine/Confirmation/?s=j33M5TJ9t', 'https://spel.normal.se/slotmachine/Confirmation/?s=MgDGPPS2k', 'https://spel.normal.se/slotmachine/Confirmation/?s=OPPodNErE', 'https://spel.normal.se/slotmachine/Confirmation/?s=env6sJTrT', 'https://spel.normal.se/slotmachine/Confirmation/?s=lVOoqFwRT', 'https://spel.normal.se/slotmachine/Confirmation/?s=EwW4SC7Rr', 'https://spel.normal.se/slotmachine/Confirmation/?s=t1SV1PFIb', 'https://spel.normal.se/slotmachine/Confirmation/?s=lbFuHjgqq', 'https://spel.normal.se/slotmachine/Confirmation/?s=bKr5nUwhB'
+  'ex4mp1e','1d4ex4mp1e'
 ]
 console.log(ids)
 
 async function loopPlayGames(){
   for (let i = 0; i < ids.length; i++) {
     const id = ids[i];
-    await playGame(id)
+    await playGame("https://spel.normal.se/slotmachine/Confirmation/?s="+id)
   }
 }
 loopPlayGames()
